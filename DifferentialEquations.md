@@ -2,8 +2,8 @@
 name: DifferentialEquations
 topic: Differential Equations
 maintainer: Karline Soetaert, Thomas Petzoldt
-email: karline.soetaert@nioz.nl
-version: 2021-12-29
+email: karline.soetaert@nioz.nl, thomas.petzoldt@tu-dresden.de
+version: 2022-03-07
 source: https://github.com/cran-task-views/DifferentialEquations/
 ---
 
@@ -30,7 +30,7 @@ or agent-based models.
 
 This task view was created to provide an overview on the topic. If something
 is missing, or if a new package should be mentioned here, please e-mail the
-maintainer or submit an issue or pull request in the GitHub
+maintainers or submit an issue or pull request in the GitHub
 repository linked above.
 
 ### Stochastic Differential Equations (SDEs)

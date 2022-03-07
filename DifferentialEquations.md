@@ -209,9 +209,9 @@ boundaries of the independent variable.
 
 ### Links
 -   Wikipedia: [Differential equation](http://en.wikipedia.org/wiki/Differential_equation)
--   R-Forge website: [deSolve](https://deSolve.R-Forge.R-project.org)
--   R-Forge website: [pomp](https://pomp.R-Forge.R-project.org)
+-   R-Forge website: [deSolve](https://deSolve.R-Forge.R-project.org) (differential equation solvers)
+-   Github website: [pomp](https://kingaa.github.io/pomp/) (partially observed Markov process)
 -   Book: [Iacus, SM. 2008. Simulation and Inference for Stochastic Differential Equations: with R examples, Springer](http://www.springer.com/978-0-387-75838-1)
 -   Book: [Soetaert, K. and P.M.J. Herman, 2009. A Practical Guide to Ecological Modelling, using R as a simulation Platform, Springer.](http://www.springer.com/life+sciences/ecology/book/978-1-4020-8623-6)
--   Book: [Stevens, H, 2009. A Primer of Ecology with R, Springer.](http://www.springer.com/life+sci/ecology/book/978-0-387-89881-0)
+-   Book: [Stevens, H, 2009. A Primer of Ecology with R, Springer](http://www.springer.com/life+sci/ecology/book/978-0-387-89881-0) and the [2021 online edition](https://hankstevens.github.io/Primer-of-Ecology/) on Github.
 -   Book: [Soetaert, K., Cash, J. and Mazzia, F. 2012. Solving Differential Equations in R, Springer.](http://www.springer.com/statistics/computanional+statistics/book/978-3-642-28069-6)

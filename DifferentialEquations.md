@@ -1,9 +1,9 @@
 ---
 name: DifferentialEquations
 topic: Differential Equations
-maintainer: Karline Soetaert, Thomas Petzoldt
-email: karline.soetaert@nioz.nl, thomas.petzoldt@tu-dresden.de
-version: 2022-03-07
+maintainer: Thomas Petzoldt, Karline Soetaert
+email: thomas.petzoldt@tu-dresden.de
+version: 2022-03-08
 source: https://github.com/cran-task-views/DifferentialEquations/
 ---
 

@@ -89,10 +89,10 @@ variable. Several packages offer to solve ODEs.
     function.
 -   The package `r pkg("mrgsolve")` compiles ODEs on the fly
     and allows shorthand prescription dosing.
--   The package `r pkg("RxODE")` is similar to
+-   The package `r pkg("rxode2")` is similar to
     `r pkg("mrgsolve")`, but has the added value of being
     the backend of the nonlinear mixed effects modeling R package
-    `r pkg("nlmixr")`.
+    `r pkg("nlmixr2")`.
 
 ### Delay Differential Equations (DDEs)
 
@@ -164,8 +164,8 @@ boundaries of the independent variable.
 
 ### Population ODE modeling
 
--   The package `r pkg("nlmixr")` fits ODE-based nonlinear
-    mixed effects models using `r pkg("RxODE")`.
+-   The package `r pkg("nlmixr2")` fits ODE-based nonlinear
+    mixed effects models using `r pkg("rxode2")`.
 
 ### Other
 

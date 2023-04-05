@@ -176,8 +176,6 @@ boundaries of the independent variable.
 -   In the package `r pkg("FME")` are functions for inverse
     modelling (fitting to data), sensitivity analysis, identifiability
     and Monte Carlo Analysis of DE models.
--   The package `r pkg("nlmeODE")` has functions for
-    mixed-effects modelling using differential equations.
 -   `r pkg("mkin")` provides routines for fitting kinetic
     models with one or more state variables to chemical degradation
     data.

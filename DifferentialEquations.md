@@ -205,6 +205,10 @@ boundaries of the independent variable.
 -   Package `r pkg("ecolMod")` contains the figures, data
     sets and examples from a book on ecological modelling (Soetaert and
     Herman, 2009).
+-   Package `r pkg("odin")` implements a high-level language for 
+    describing and implementing ordinary differential equations in R. 
+    It provides a "domain specific language" (DSL) which looks like R but 
+    is compiled directly to C.     
 
 
 

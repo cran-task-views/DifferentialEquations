@@ -3,7 +3,7 @@ name: DifferentialEquations
 topic: Differential Equations
 maintainer: Thomas Petzoldt, Karline Soetaert
 email: thomas.petzoldt@tu-dresden.de
-version: 2023-04-05
+version: 2023-05-22
 source: https://github.com/cran-task-views/DifferentialEquations/
 ---
 
@@ -48,6 +48,9 @@ stochastic process.
     `r pkg("GillespieSSA")` implement Gillespie's "exact"
     stochastic simulation algorithm (direct method) and several
     approximate methods.
+-   The package `r pkg("resde")` computes maximum likelihood parameter
+    estimates for univariate reducible stochastic differential equation
+    models.
 -   The package `r pkg("Sim.DiffProc")` provides functions
     for simulation of Itô and Stratonovitch stochastic differential
     equations.
@@ -198,10 +201,14 @@ boundaries of the independent variable.
 -   Package `r pkg("rodeo")` is an object oriented system
     and code generator that creates and compiles efficient Fortran code
     for `r pkg("deSolve")` from models defined in
-    stoichiomatry matrix notation.
+    stoichiometry matrix notation.
 -   Package `r pkg("ecolMod")` contains the figures, data
     sets and examples from a book on ecological modelling (Soetaert and
     Herman, 2009).
+-   Package `r pkg("odin")` implements a high-level language for 
+    describing and implementing ordinary differential equations in R. 
+    It provides a "domain specific language" (DSL) which looks like R but 
+    is compiled directly to C.     
 
 
 

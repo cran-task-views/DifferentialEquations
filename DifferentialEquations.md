@@ -157,6 +157,8 @@ index; the higher this index, the more difficult to solve the DAE.
 BVPs have solutions and/or derivative conditions specified at the
 boundaries of the independent variable.
 
+-   Package `r pkg("bvpSolve")` solves BVPs of systems of ordinary differential 
+    equations and differential algebraic equations. 
 -   The package `r pkg("ReacTran")` can solve BVPs that
     belong to the class of reactive transport equations.
 -   Package `r pkg("diffeqr")` can also solve BVPs using the

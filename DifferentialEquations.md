@@ -167,14 +167,32 @@ boundaries of the independent variable.
     
 ### Model Analysis and Calibration
 
-- Package `r pkg("phaseR")` applys phase plane methods to one- and 
-  two-dimensional autonomous ODEs.
- 
+-   Package `r pkg("phaseR")` applys phase plane methods to one- and 
+    two-dimensional autonomous ODEs.
+-   In the package `r pkg("FME")` are functions for inverse
+    modelling (fitting to data), sensitivity analysis, identifiability
+    and Monte Carlo Analysis of DE models.
+
+### Compiled Code
+
+-   Package `r pkg("odin")` implements a high-level language for 
+    describing and implementing ordinary differential equations in R. 
+    It provides a "domain specific language" (DSL) which looks like R but 
+    is compiled directly to C.     
+-   Package `r pkg("rodeo")` is an object oriented system
+    and code generator that creates and compiles efficient Fortran code
+    for `r pkg("deSolve")` from models defined in
+    stoichiometry matrix notation.
+-   Package `r pkg("cOde")` supports the automatic creation
+    of dynamically linked code for packages
+    `r pkg("deSolve")` (or a built-in implementation of the
+    sundials `cvode` solver) from inline C embedded in the R code.
 
 ### Population ODE modeling
 
 -   The package `r pkg("nlmixr2")` fits ODE-based nonlinear
     mixed effects models using `r pkg("rxode2")`.
+
 
 ### Other
 
@@ -182,9 +200,6 @@ boundaries of the independent variable.
     environment to implement and simulate dynamic models. Next to DE
     models, it also provides functions for grid-oriented,
     individual-based, and particle diffusion models.
--   In the package `r pkg("FME")` are functions for inverse
-    modelling (fitting to data), sensitivity analysis, identifiability
-    and Monte Carlo Analysis of DE models.
 -   `r pkg("mkin")` provides routines for fitting kinetic
     models with one or more state variables to chemical degradation
     data.
@@ -200,22 +215,9 @@ boundaries of the independent variable.
     done with the package `r pkg("rootSolve")`.
 -   The `r pkg("PBSmodelling")` package adds GUI functions
     to models.
--   Package `r pkg("cOde")` supports the automatic creation
-    of dynamically linked code for packages
-    `r pkg("deSolve")` (or a built-in implementation of the
-    sundials cvode solver) from inline C embedded in the R code.
--   Package `r pkg("rodeo")` is an object oriented system
-    and code generator that creates and compiles efficient Fortran code
-    for `r pkg("deSolve")` from models defined in
-    stoichiometry matrix notation.
 -   Package `r pkg("ecolMod")` contains the figures, data
     sets and examples from a book on ecological modelling (Soetaert and
     Herman, 2009).
--   Package `r pkg("odin")` implements a high-level language for 
-    describing and implementing ordinary differential equations in R. 
-    It provides a "domain specific language" (DSL) which looks like R but 
-    is compiled directly to C.     
-
 
 
 ### Links

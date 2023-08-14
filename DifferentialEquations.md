@@ -172,6 +172,9 @@ boundaries of the independent variable.
 -   In the package `r pkg("FME")` are functions for inverse
     modelling (fitting to data), sensitivity analysis, identifiability
     and Monte Carlo Analysis of DE models.
+-   Package `r pkg("ODEsensitivity")` performs sensitivity analysis of ODE 
+    models. It utilizes theinterface from `deSolve` and connects it with the 
+    sensitivity analysis from `r pkg("sensitivity")`.
 
 ### Compiled Code
 

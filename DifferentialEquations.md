@@ -164,6 +164,12 @@ boundaries of the independent variable.
 -   Package `r pkg("diffeqr")` can also solve BVPs using the
     **DifferentialEquations.jl** package from the Julia programming
     language.
+    
+### Model Analysis and Calibration
+
+- Package `r pkg("phaseR")` applys phase plane methods to one- and 
+  two-dimensional autonomous ODEs.
+ 
 
 ### Population ODE modeling
 

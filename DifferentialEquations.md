@@ -3,7 +3,7 @@ name: DifferentialEquations
 topic: Differential Equations
 maintainer: Thomas Petzoldt, Karline Soetaert
 email: thomas.petzoldt@tu-dresden.de
-version: 2023-05-22
+version: 2023-08-14
 source: https://github.com/cran-task-views/DifferentialEquations/
 ---
 
@@ -86,10 +86,6 @@ variable. Several packages offer to solve ODEs.
     Gould, Tobochnik and Christian, 2016) aims to show physics, math and
     engineering students how ODE solvers can be made with R's S4
     classes.
--   Package `r pkg("sundialr")` provides a way to call the
-    'CVODE' function from the 'SUNDIALS' C ODE solving library. The
-    package requires the ODE to be written as an 'R' or 'Rcpp'
-    function.
 -   The package `r pkg("mrgsolve")` compiles ODEs on the fly
     and allows shorthand prescription dosing.
 -   The package `r pkg("rxode2")` is similar to

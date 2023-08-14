@@ -3,7 +3,7 @@ name: DifferentialEquations
 topic: Differential Equations
 maintainer: Thomas Petzoldt, Karline Soetaert
 email: thomas.petzoldt@tu-dresden.de
-version: 2023-05-22
+version: 2023-08-14
 source: https://github.com/cran-task-views/DifferentialEquations/
 ---
 
@@ -69,7 +69,9 @@ variable. Several packages offer to solve ODEs.
     `r pkg("deSolve", priority = "core")`.
 -   The package `r pkg("deSolve")` contains several solvers
     for solving ODE, DAE, DDE and PDE. It can deal with stiff and
-    nonstiff problems.
+    nonstiff problems. Package `r pkg("deTestSet")` contains test sets for 
+    stiff and non-stiff differential and differential algebraic equations 
+    and two additional solvers (`gamd` and `mebdfi`).
 -   The package `r pkg("odeintr")` generates and compiles
     C++ ODE solvers on the fly using Rcpp and
     [Boost](http://www.boost.org/) [odeint](http://www.odeint.com/) .
@@ -86,10 +88,6 @@ variable. Several packages offer to solve ODEs.
     Gould, Tobochnik and Christian, 2016) aims to show physics, math and
     engineering students how ODE solvers can be made with R's S4
     classes.
--   Package `r pkg("sundialr")` provides a way to call the
-    'CVODE' function from the 'SUNDIALS' C ODE solving library. The
-    package requires the ODE to be written as an 'R' or 'Rcpp'
-    function.
 -   The package `r pkg("mrgsolve")` compiles ODEs on the fly
     and allows shorthand prescription dosing.
 -   The package `r pkg("rxode2")` is similar to
@@ -159,16 +157,45 @@ index; the higher this index, the more difficult to solve the DAE.
 BVPs have solutions and/or derivative conditions specified at the
 boundaries of the independent variable.
 
+-   Package `r pkg("bvpSolve")` solves BVPs of systems of ordinary differential 
+    equations and differential algebraic equations. 
 -   The package `r pkg("ReacTran")` can solve BVPs that
     belong to the class of reactive transport equations.
 -   Package `r pkg("diffeqr")` can also solve BVPs using the
     **DifferentialEquations.jl** package from the Julia programming
     language.
+    
+### Model Analysis and Calibration
+
+-   Package `r pkg("phaseR")` applys phase plane methods to one- and 
+    two-dimensional autonomous ODEs.
+-   In the package `r pkg("FME")` are functions for inverse
+    modelling (fitting to data), sensitivity analysis, identifiability
+    and Monte Carlo Analysis of DE models.
+-   Package `r pkg("ODEsensitivity")` performs sensitivity analysis of ODE 
+    models. It utilizes theinterface from `deSolve` and connects it with the 
+    sensitivity analysis from `r pkg("sensitivity")`.
+
+### Compiled Code
+
+-   Package `r pkg("odin")` implements a high-level language for 
+    describing and implementing ordinary differential equations in R. 
+    It provides a "domain specific language" (DSL) which looks like R but 
+    is compiled directly to C.     
+-   Package `r pkg("rodeo")` is an object oriented system
+    and code generator that creates and compiles efficient Fortran code
+    for `r pkg("deSolve")` from models defined in
+    stoichiometry matrix notation.
+-   Package `r pkg("cOde")` supports the automatic creation
+    of dynamically linked code for packages
+    `r pkg("deSolve")` (or a built-in implementation of the
+    sundials `cvode` solver) from inline C embedded in the R code.
 
 ### Population ODE modeling
 
 -   The package `r pkg("nlmixr2")` fits ODE-based nonlinear
     mixed effects models using `r pkg("rxode2")`.
+
 
 ### Other
 
@@ -176,9 +203,6 @@ boundaries of the independent variable.
     environment to implement and simulate dynamic models. Next to DE
     models, it also provides functions for grid-oriented,
     individual-based, and particle diffusion models.
--   In the package `r pkg("FME")` are functions for inverse
-    modelling (fitting to data), sensitivity analysis, identifiability
-    and Monte Carlo Analysis of DE models.
 -   `r pkg("mkin")` provides routines for fitting kinetic
     models with one or more state variables to chemical degradation
     data.
@@ -194,22 +218,9 @@ boundaries of the independent variable.
     done with the package `r pkg("rootSolve")`.
 -   The `r pkg("PBSmodelling")` package adds GUI functions
     to models.
--   Package `r pkg("cOde")` supports the automatic creation
-    of dynamically linked code for packages
-    `r pkg("deSolve")` (or a built-in implementation of the
-    sundials cvode solver) from inline C embedded in the R code.
--   Package `r pkg("rodeo")` is an object oriented system
-    and code generator that creates and compiles efficient Fortran code
-    for `r pkg("deSolve")` from models defined in
-    stoichiometry matrix notation.
 -   Package `r pkg("ecolMod")` contains the figures, data
     sets and examples from a book on ecological modelling (Soetaert and
     Herman, 2009).
--   Package `r pkg("odin")` implements a high-level language for 
-    describing and implementing ordinary differential equations in R. 
-    It provides a "domain specific language" (DSL) which looks like R but 
-    is compiled directly to C.     
-
 
 
 ### Links

@@ -69,7 +69,9 @@ variable. Several packages offer to solve ODEs.
     `r pkg("deSolve", priority = "core")`.
 -   The package `r pkg("deSolve")` contains several solvers
     for solving ODE, DAE, DDE and PDE. It can deal with stiff and
-    nonstiff problems.
+    nonstiff problems. Package `r pkg("deTestSet")` contains test sets for 
+    stiff and non-stiff differential and differential algebraic equations 
+    and two additional solvers (`gamd` and `mebdfi`).
 -   The package `r pkg("odeintr")` generates and compiles
     C++ ODE solvers on the fly using Rcpp and
     [Boost](http://www.boost.org/) [odeint](http://www.odeint.com/) .

@@ -74,7 +74,10 @@ variable. Several packages offer to solve ODEs.
     and two additional solvers (`gamd` and `mebdfi`).
 -   The package `r pkg("odeintr")` generates and compiles
     C++ ODE solvers on the fly using Rcpp and
-    [Boost](http://www.boost.org/) [odeint](http://www.odeint.com/) .
+    [Boost](http://www.boost.org/) [odeint](http://www.odeint.com/).
+-   Package `r pkg("r2sundials")` is a wrapper for the  widely used `SUNDIALS` 
+    SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers, and more 
+    precisely to its `CVODES` solver.
 -   The R package `r pkg("diffeqr")` provides a seamless
     interface to the **DifferentialEquations.jl** package from the Julia
     programming language. It has unique high performance methods for

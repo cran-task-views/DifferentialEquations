@@ -84,10 +84,10 @@ variable. Several packages offer to solve ODEs.
     Runge-Kutta solvers such as ode23, ode23s, ode45, or the
     Burlisch-Stoer algorithm to obtain numerical solutions to ODEs with
     higher accuracy.
--   Package `r pkg("rODE")` (inspired from the book of
-    Gould, Tobochnik and Christian, 2016) aims to show physics, math and
-    engineering students how ODE solvers can be made with R's S4
-    classes.
+-   Package `r pkg("rODE")` (inspired by the Java related [book of
+    Gould, Tobochnik and Christian, 2016](https://www.compadre.org/Repository/document/ServeFile.cfm?ID=7375&DocID=527)) 
+    aims to show physics, math and engineering students how ODE solvers can be 
+    made with R's S4 classes.
 -   The package `r pkg("mrgsolve")` compiles ODEs on the fly
     and allows shorthand prescription dosing.
 -   The package `r pkg("rxode2")` is similar to
@@ -227,7 +227,8 @@ boundaries of the independent variable.
 -   Wikipedia: [Differential equation](http://en.wikipedia.org/wiki/Differential_equation)
 -   R-Forge website: [deSolve](https://deSolve.R-Forge.R-project.org) (differential equation solvers)
 -   Github website: [pomp](https://kingaa.github.io/pomp/) (partially observed Markov process)
--   Book: [Iacus, SM. 2008. Simulation and Inference for Stochastic Differential Equations: with R examples, Springer](http://www.springer.com/978-0-387-75838-1)
+-   Book: [Iacus, S.M. 2008. Simulation and Inference for Stochastic Differential Equations: with R examples, Springer](http://www.springer.com/978-0-387-75838-1)
 -   Book: [Soetaert, K. and P.M.J. Herman, 2009. A Practical Guide to Ecological Modelling, using R as a simulation Platform, Springer.](http://www.springer.com/life+sciences/ecology/book/978-1-4020-8623-6)
 -   Book: [Stevens, H, 2009. A Primer of Ecology with R, Springer](http://www.springer.com/life+sci/ecology/book/978-0-387-89881-0) and the [2021 online edition](https://hankstevens.github.io/Primer-of-Ecology/) on Github.
 -   Book: [Soetaert, K., Cash, J. and Mazzia, F. 2012. Solving Differential Equations in R, Springer.](http://www.springer.com/statistics/computanional+statistics/book/978-3-642-28069-6)
+-  Book: [Griffiths, G.W., 2016. Numerical Analysis Using R. Solutions to ODEs and PDEs. Cambridge University Press.](https://doi.org/10.1017/CBO9781316336069)

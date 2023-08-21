@@ -172,9 +172,17 @@ boundaries of the independent variable.
 -   In the package `r pkg("FME")` are functions for inverse
     modelling (fitting to data), sensitivity analysis, identifiability
     and Monte Carlo Analysis of DE models.
+-   Package `r pkg("fitode")` contains tools for fitting ODEs. Sensity equations
+    are used to compute the gradients of ODE trajectories for more stable
+    fitting. An MCMC method is also available.
+-   Package `r pkg("magi")` implements parameter estimation of dynamic systems
+    from noisy and sparse data within a Bayesian framework, without the need 
+    for numerical integration.  
 -   Package `r pkg("ODEsensitivity")` performs sensitivity analysis of ODE 
     models. It utilizes theinterface from `deSolve` and connects it with the 
     sensitivity analysis from `r pkg("sensitivity")`.
+-   Package `r pkg("deFit")` uses numerical optimization to fit ODEs to time
+    series data to examine the dynamic relationships between variables.
 
 ### Compiled Code
 

@@ -3,7 +3,7 @@ name: DifferentialEquations
 topic: Differential Equations
 maintainer: Thomas Petzoldt, Karline Soetaert
 email: thomas.petzoldt@tu-dresden.de
-version: 2023-08-22
+version: 2023-05-25
 source: https://github.com/cran-task-views/DifferentialEquations/
 ---
 
@@ -69,12 +69,7 @@ variable. Several packages offer to solve ODEs.
     `r pkg("deSolve", priority = "core")`.
 -   The package `r pkg("deSolve")` contains several solvers
     for solving ODE, DAE, DDE and PDE. It can deal with stiff and
-    nonstiff problems. Package `r pkg("deTestSet")` contains test sets for 
-    stiff and non-stiff differential and differential algebraic equations 
-    and two additional solvers (`gamd` and `mebdfi`).
--   The package `r pkg("odeintr")` generates and compiles
-    C++ ODE solvers on the fly using Rcpp and
-    [Boost](http://www.boost.org/) [odeint](http://www.odeint.com/).
+    nonstiff problems.
 -   Package `r pkg("r2sundials")` is a wrapper for the  widely used `SUNDIALS` 
     SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers, and more 
     precisely to its `CVODES` solver.
@@ -160,13 +155,11 @@ index; the higher this index, the more difficult to solve the DAE.
 BVPs have solutions and/or derivative conditions specified at the
 boundaries of the independent variable.
 
--   Package `r pkg("bvpSolve")` solves BVPs of systems of ordinary differential 
-    equations and differential algebraic equations. 
--   The package `r pkg("ReacTran")` can solve BVPs that
-    belong to the class of reactive transport equations.
--   Package `r pkg("diffeqr")` can also solve BVPs using the
+-   Package `r pkg("diffeqr")` can solve BVPs using the
     **DifferentialEquations.jl** package from the Julia programming
     language.
+-   The package `r pkg("ReacTran")` can solve BVPs that
+    belong to the class of reactive transport equations.
     
 ### Model Analysis and Calibration
 
